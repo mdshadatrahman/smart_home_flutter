@@ -11,6 +11,8 @@ abstract class Routes {
   static const DETAIL_ITEM = _Paths.DETAIL_ITEM;
   static const DEVICE_ACTIVE = _Paths.DEVICE_ACTIVE;
   static const ALL_ROOMS = _Paths.ALL_ROOMS;
+  static const BOTTOM_NAV = _Paths.BOTTOM_NAV;
+  static const PROFILE = _Paths.PROFILE;
 }
 
 abstract class _Paths {
@@ -23,4 +25,6 @@ abstract class _Paths {
   static const DETAIL_ITEM = '/detail-item';
   static const DEVICE_ACTIVE = '/device-active';
   static const ALL_ROOMS = '/all-rooms';
+  static const BOTTOM_NAV = '/bottom-nav';
+  static const PROFILE = '/profile';
 }

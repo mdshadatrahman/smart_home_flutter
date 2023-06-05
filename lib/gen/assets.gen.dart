@@ -39,8 +39,44 @@ class $AssetsPicturesSvgGen {
   /// File path: assets/pictures/svg/arrow_bar.svg
   String get arrowBar => 'assets/pictures/svg/arrow_bar.svg';
 
+  /// File path: assets/pictures/svg/home_0.svg
+  String get home0 => 'assets/pictures/svg/home_0.svg';
+
+  /// File path: assets/pictures/svg/home_1.svg
+  String get home1 => 'assets/pictures/svg/home_1.svg';
+
+  /// File path: assets/pictures/svg/profile_0.svg
+  String get profile0 => 'assets/pictures/svg/profile_0.svg';
+
+  /// File path: assets/pictures/svg/profile_1.svg
+  String get profile1 => 'assets/pictures/svg/profile_1.svg';
+
+  /// File path: assets/pictures/svg/smart_0.svg
+  String get smart0 => 'assets/pictures/svg/smart_0.svg';
+
+  /// File path: assets/pictures/svg/smart_1.svg
+  String get smart1 => 'assets/pictures/svg/smart_1.svg';
+
+  /// File path: assets/pictures/svg/usage_0.svg
+  String get usage0 => 'assets/pictures/svg/usage_0.svg';
+
+  /// File path: assets/pictures/svg/usage_1.svg
+  String get usage1 => 'assets/pictures/svg/usage_1.svg';
+
   /// List of all assets
-  List<String> get values => [coolKidsFreshAir, splashScreen, arrowBar];
+  List<String> get values => [
+        coolKidsFreshAir,
+        splashScreen,
+        arrowBar,
+        home0,
+        home1,
+        profile0,
+        profile1,
+        smart0,
+        smart1,
+        usage0,
+        usage1
+      ];
 }
 
 class Assets {

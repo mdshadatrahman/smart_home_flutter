@@ -3,6 +3,6 @@ import 'package:smart_home/app/routes/app_pages.dart';
 
 class SplashController extends GetxController {
   void goNextPage() {
-    Get.offAndToNamed(Routes.HOME);
+    Get.offAndToNamed(Routes.BOTTOM_NAV);
   }
 }
