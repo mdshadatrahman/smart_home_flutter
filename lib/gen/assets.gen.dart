@@ -19,12 +19,16 @@ class $AssetsPicturesGen {
 class $AssetsPicturesPngGen {
   const $AssetsPicturesPngGen();
 
+  /// File path: assets/pictures/png/cloud_sun.png
+  AssetGenImage get cloudSun =>
+      const AssetGenImage('assets/pictures/png/cloud_sun.png');
+
   /// File path: assets/pictures/png/splash_foreground_image.png
   AssetGenImage get splashForegroundImage =>
       const AssetGenImage('assets/pictures/png/splash_foreground_image.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [splashForegroundImage];
+  List<AssetGenImage> get values => [cloudSun, splashForegroundImage];
 }
 
 class $AssetsPicturesSvgGen {
@@ -45,6 +49,12 @@ class $AssetsPicturesSvgGen {
   /// File path: assets/pictures/svg/home_1.svg
   String get home1 => 'assets/pictures/svg/home_1.svg';
 
+  /// File path: assets/pictures/svg/humadity.svg
+  String get humadity => 'assets/pictures/svg/humadity.svg';
+
+  /// File path: assets/pictures/svg/notification.svg
+  String get notification => 'assets/pictures/svg/notification.svg';
+
   /// File path: assets/pictures/svg/profile_0.svg
   String get profile0 => 'assets/pictures/svg/profile_0.svg';
 
@@ -63,6 +73,15 @@ class $AssetsPicturesSvgGen {
   /// File path: assets/pictures/svg/usage_1.svg
   String get usage1 => 'assets/pictures/svg/usage_1.svg';
 
+  /// File path: assets/pictures/svg/visibility.svg
+  String get visibility => 'assets/pictures/svg/visibility.svg';
+
+  /// File path: assets/pictures/svg/weather.svg
+  String get weather => 'assets/pictures/svg/weather.svg';
+
+  /// File path: assets/pictures/svg/wind.svg
+  String get wind => 'assets/pictures/svg/wind.svg';
+
   /// List of all assets
   List<String> get values => [
         coolKidsFreshAir,
@@ -70,12 +89,17 @@ class $AssetsPicturesSvgGen {
         arrowBar,
         home0,
         home1,
+        humadity,
+        notification,
         profile0,
         profile1,
         smart0,
         smart1,
         usage0,
-        usage1
+        usage1,
+        visibility,
+        weather,
+        wind
       ];
 }
 

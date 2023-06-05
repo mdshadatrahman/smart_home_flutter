@@ -16,6 +16,7 @@ class BottomNavView extends GetView<BottomNavController> {
         controller: controller.navController.value,
         screens: controller.buildScreens(),
         items: controller.navBarsItems(),
+        navBarHeight: 85,
         confineInSafeArea: true,
         backgroundColor: AppColors.main2,
         handleAndroidBackButtonPress: true,
