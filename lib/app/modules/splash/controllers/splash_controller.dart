@@ -1,23 +1,8 @@
 import 'package:get/get.dart';
+import 'package:smart_home/app/routes/app_pages.dart';
 
 class SplashController extends GetxController {
-  //TODO: Implement SplashController
-
-  final count = 0.obs;
-  @override
-  void onInit() {
-    super.onInit();
+  void goNextPage() {
+    Get.offAndToNamed(Routes.HOME);
   }
-
-  @override
-  void onReady() {
-    super.onReady();
-  }
-
-  @override
-  void onClose() {
-    super.onClose();
-  }
-
-  void increment() => count.value++;
 }

@@ -12,7 +12,19 @@ import 'package:flutter/widgets.dart';
 class $AssetsPicturesGen {
   const $AssetsPicturesGen();
 
+  $AssetsPicturesPngGen get png => const $AssetsPicturesPngGen();
   $AssetsPicturesSvgGen get svg => const $AssetsPicturesSvgGen();
+}
+
+class $AssetsPicturesPngGen {
+  const $AssetsPicturesPngGen();
+
+  /// File path: assets/pictures/png/splash_foreground_image.png
+  AssetGenImage get splashForegroundImage =>
+      const AssetGenImage('assets/pictures/png/splash_foreground_image.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [splashForegroundImage];
 }
 
 class $AssetsPicturesSvgGen {
@@ -24,8 +36,11 @@ class $AssetsPicturesSvgGen {
   /// File path: assets/pictures/svg/Splash Screen.svg
   String get splashScreen => 'assets/pictures/svg/Splash Screen.svg';
 
+  /// File path: assets/pictures/svg/arrow_bar.svg
+  String get arrowBar => 'assets/pictures/svg/arrow_bar.svg';
+
   /// List of all assets
-  List<String> get values => [coolKidsFreshAir, splashScreen];
+  List<String> get values => [coolKidsFreshAir, splashScreen, arrowBar];
 }
 
 class Assets {
